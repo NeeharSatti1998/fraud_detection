@@ -1,0 +1,38 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+
+# MLflow logs
+mlruns/
+
+# PDF invoices
+*.pdf
+
+# Data folders (optional — keep if you want to commit CSVs)
+data/
+scraped_data/
+processed_data/
+final_data/
+
+# Model files (keep only production .pkl)
+model/*.pkl
+!model/production_model.pkl
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Docker
+*.db
+*.sqlite3
+.DS_Store
