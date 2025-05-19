@@ -7,3 +7,5 @@ xgboost
 pydantic
 requests
 streamlit
+prometheus_client
+prometheus-fastapi-instrumentator
