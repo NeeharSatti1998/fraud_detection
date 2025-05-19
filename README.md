@@ -6,3 +6,5 @@ Grafana for monitoring dashboards, and Streamlit for displaying results interact
 All components run within Docker containers for modularity and ease of deployment.
 
 ---
+
+## Project Architecture
